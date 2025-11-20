@@ -1,0 +1,45 @@
+# Virtual Environment (DO NOT SHARE)
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# VS Code settings (optional - you can share these with teammate)
+.vscode/
+*.code-workspace
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Data files (optional - depends if you want to share them)
+# Uncomment if datasets are too large for GitHub
+# *.pkl
+# *.csv
+# *.xlsx
+
+# Model files (usually too large for GitHub)
+*.joblib
+*.h5
+*.pb
+models/
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
